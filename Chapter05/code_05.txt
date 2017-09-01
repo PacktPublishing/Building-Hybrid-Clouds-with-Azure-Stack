@@ -1,0 +1,1 @@
+Get-UsageAggregates [-AggregationGranularity <AggregationGranularity>] [-ContinuationToken <String>] -ReportedEndTime <DateTime> -ReportedStartTime <DateTime> [-ShowDetails <Boolean>] [<CommonParameters>]

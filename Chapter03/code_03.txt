@@ -1,0 +1,1 @@
+Register-AzureRmResourceProvider -ProviderNamespace Microsoft.KeyVault

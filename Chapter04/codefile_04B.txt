@@ -1,0 +1,5 @@
+# Connect to ARM using your appropriate account
+Login-AzureRmAccount
+
+#Get all resources used per your subscription
+Get-AzureRmSubscription –SubscriptionName "your subcription" | Select-AzureRmSubscription

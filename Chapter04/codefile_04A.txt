@@ -1,0 +1,13 @@
+Debug-NetworkControllerConfigurationState -NetworkController <FQDN or NC IP> [-Credential <PS Credential>]
+
+# Healthy State Example - no status reported
+$cred = Get-Credential
+Debug-NetworkControllerConfigurationState -NetworkController 10.127.132.211 -Credential $cred
+
+Fetching ResourceType:     accessControlLists
+Fetching ResourceType:     servers
+Fetching ResourceType:     virtualNetworks
+Fetching ResourceType:     networkInterfaces
+Fetching ResourceType:     virtualGateways
+Fetching ResourceType:     loadbalancerMuxes
+Fetching ResourceType:     Gateways

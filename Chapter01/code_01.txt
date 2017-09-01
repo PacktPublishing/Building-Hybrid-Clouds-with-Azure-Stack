@@ -1,0 +1,9 @@
+# Connect to AAD
+
+$AADCred = get-credential
+
+# Add a new tenant account
+
+connect-msolservice -credential $AADCred
+$NewUser = new-msoluser -DisplayName "Tenant1     Admin" -UserPrincipalName <username>@<domainname.tld> -Password <password>
+Add-MsolRoleMember -RoleName "Tenant Administrator" -RoleMemberType User -RoleMemberObjectId $NewUser.ObjectId

@@ -1,0 +1,1 @@
+Get-AzureRmResourceProvider -ProviderNamespace Microsoft.KeyVault | ft -AutoSize
