@@ -29,6 +29,3 @@ Get-AzureRmSubscription –SubscriptionName "your subcription" | Select-AzureRmS
 * [Hybrid Cloud Management with Red Hat CloudForms](https://www.packtpub.com/virtualization-and-cloud/hybrid-cloud-management-red-hat-cloudforms?utm_source=github&utm_medium=repository&utm_campaign=9781785283574)
 
 * [Robust Cloud Integration with Azure](https://www.packtpub.com/virtualization-and-cloud/robust-cloud-integration-azure?utm_source=github&utm_medium=repository&utm_campaign=9781786465573)
-
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
